@@ -5,6 +5,7 @@
 ####################################################
 #
 from classes import Password, Validacoes
+import time
 
 import sys
 argumentos = sys.argv
@@ -26,3 +27,5 @@ def password():
         password()
 
 password()
+time.sleep(15)
+        
